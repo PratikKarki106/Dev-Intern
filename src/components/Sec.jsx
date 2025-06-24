@@ -8,7 +8,7 @@ const chunkSize = 10;
 const Sec = () => {
   const [input, setInput] = useState('');
   const [started, setStarted] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(60);
+  const [timeLeft, setTimeLeft] = useState(30);
   const [chunkIndex, setChunkIndex] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
   const [typoCount, setTypoCount] = useState(0);
