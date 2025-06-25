@@ -100,8 +100,8 @@ const Sec = () => {
       ) : (
         <div className="results">
           <h3>Results</h3>
-          <p>WPM: {Math.round((correctCount / 60) * 60)}</p>
-          <p>Correct Words: {correctCount}</p>
+          <p>WPM: {Math.round(correctCount)}</p>
+          <p>Correct Words: {correctCount - typoCount}</p>
           <p>Typos: {typoCount}</p>
         </div>
       )}
